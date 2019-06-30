@@ -15,7 +15,7 @@ public class App
     	obj.drive();*/
         
     	Tyre t = (Tyre)context.getBean("tyre");
-    	System.out.println(t.getBrand());
+    	System.out.println("Brand"+t.getBrand());
     	
     }
 }
